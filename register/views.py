@@ -10,7 +10,7 @@ from .forms import CompanyRegistrationForm
 from .forms import ProfilePictureForm
 from .decorators import unauthenticated_user 
 from django.core.mail import send_mail
-from manager import config
+# from manager import config
 
 
 # Create your views here.

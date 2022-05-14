@@ -135,13 +135,13 @@ MEDIA_URL = '/media/' # Included upload images
 MEDIA_ROOT =  os.path.join(BASE_DIR, 'core/media') # Included upload images
 print(MEDIA_ROOT)
 
-from . import config
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = config.EMAIL_HOST_USER
-EMAIL_HOST_PASSWORD = config.EMAIL_HOST_PASSWORD
+# from . import config
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
+# EMAIL_HOST_USER = config.EMAIL_HOST_USER
+# EMAIL_HOST_PASSWORD = config.EMAIL_HOST_PASSWORD
 
 
 
